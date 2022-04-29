@@ -1,0 +1,112 @@
+
+ :root {
+  --primary-color: #ffffff;
+  --secondary-color: #090a0d;
+}
+
+body {
+  color: var(--secondary-color);
+  background-image: url(seasons.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: fit-content;
+}
+
+.container {
+  border-radius: 15px;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+  font-size: 2rem;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px) saturate(100%) contrast(45%) brightness(130%);
+}
+
+.card {
+  padding: 20px 0px;
+  border-radius: 15px;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+  font-size: 2rem;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.card-group {
+  border-radius: 15px;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+  font-size: 2rem;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.resultSection {
+  border-radius: 15px;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+  font-size: 2rem;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* Input Section */
+
+.card-title {
+  font-size: 28px;
+  padding: 20px 0px;
+  font-weight: 600;
+}
+
+label {
+  font-weight: 500;
+}
+
+select {
+  margin-bottom: 40px;
+}
+
+#selectInputDegreeType {
+  border-radius: 0px 3px 3px 0px;
+}
+
+
+.convertBtn {
+  min-width: 10px;
+  background-color: var(--primary-color);
+
+
+}
+
+.convertBtn:hover {
+  transition: 0.5s;
+  background-color: var(--secondary-color);
+}
+
+/* Result Section */
+
+#resultValueSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 500px;
+  height: 200px;
+  word-wrap: normal;
+  text-align: center;
+  font-size-adjust: 0.58;
+
+}
+
+#convertedDegree {
+  font-size: 65px;
+  font-weight: 500;
+  max-width: 500px;
+}
+
+#convertedUnit,
+#degree {
+  padding-bottom: 70px;
+}
+
+.resultSection {
+  background-color: var(--primary-color);
+  color: rgb(8, 0, 0);
+}
+
+
