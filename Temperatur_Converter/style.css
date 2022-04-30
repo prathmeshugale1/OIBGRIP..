@@ -21,31 +21,6 @@ body {
   backdrop-filter: blur(10px) saturate(100%) contrast(45%) brightness(130%);
 }
 
-.card {
-  padding: 20px 0px;
-  border-radius: 15px;
-  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
-  font-size: 2rem;
-  overflow: hidden;
-  background-color: rgba(255, 255, 255, 0.3);
-}
-
-.card-group {
-  border-radius: 15px;
-  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
-  font-size: 2rem;
-  overflow: hidden;
-  background-color: rgba(255, 255, 255, 0.3);
-}
-
-.resultSection {
-  border-radius: 15px;
-  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
-  font-size: 2rem;
-  overflow: hidden;
-  background-color: rgba(255, 255, 255, 0.3);
-}
-
 /* Input Section */
 
 .card-title {
@@ -93,6 +68,31 @@ select {
 
 }
 
+.card {
+  padding: 20px 0px;
+  border-radius: 15px;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+  font-size: 2rem;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.card-group {
+  border-radius: 15px;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+  font-size: 2rem;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.resultSection {
+  border-radius: 15px;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+  font-size: 2rem;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
 #convertedDegree {
   font-size: 65px;
   font-weight: 500;
@@ -108,5 +108,4 @@ select {
   background-color: var(--primary-color);
   color: rgb(8, 0, 0);
 }
-
 
